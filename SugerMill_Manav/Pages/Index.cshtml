@@ -3,8 +3,21 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<style>
+    .full-width-image {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        margin-left: -50vw;
+    }
+
+        .full-width-image img {
+            width: 100%;
+        }
+</style>
 
 @*<div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>*@
+<img src="~/img/sugarcane.jpg" class="full-width-image" />

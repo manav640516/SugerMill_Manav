@@ -4,9 +4,21 @@
 @{
     ViewData["Title"] = "Index";
 }
+<style>
+    .full-width-image {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        margin-left: -50vw;
+        height:400px;
+    }
 
+        .full-width-image img {
+            width: 100%;
+        }
+</style>
+@*<img src="~/img/sugarcane.jpg" class="full-width-image" />*@
 <h1>Index</h1>
-
 <p>
     <a asp-page="Create">Create New</a>
 </p>
